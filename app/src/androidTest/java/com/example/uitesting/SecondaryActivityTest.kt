@@ -9,8 +9,7 @@ import org.junit.runner.RunWith
 
 @RunWith(AndroidJUnit4ClassRunner::class)
 class SecondaryActivityTest{
-//    @get:Rule
-//    val activityRule=ActivityScenarioRule(SecondaryActivity:class.java)
-
+    @get:Rule
+    val activityScenariorule=ActivityScenarioRule(SecondaryActivity::class.java)
 
 }
