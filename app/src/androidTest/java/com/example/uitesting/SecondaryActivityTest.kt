@@ -18,6 +18,9 @@ class SecondaryActivityTest{
     @get:Rule
     val activityScenariorule=ActivityScenarioRule(SecondaryActivity::class.java)
 
+
+
+
     @Test
     fun test_isActivityIdPresent_isPresent() {
 
